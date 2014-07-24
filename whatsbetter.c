@@ -3,7 +3,7 @@
 #include <limits.h>
 
 
-
+void init();
 
 
 int main(int argc, char* argv[])
@@ -17,7 +17,8 @@ int main(int argc, char* argv[])
 	int T_FPGA;
         int T_GPU;
 
-
+	init();
+	
 	printf("How many ALUS are on your GPU ? \n");
 	scanf("%d", &A);
 	if(A <=0)
@@ -71,4 +72,9 @@ int main(int argc, char* argv[])
 
 }
 
+void init()
+{
 
+	printf("\t\t\t\t\t\t\t This algorithm is hold very simple \n" "\t\t\t\tIt compares if the FPGA with the ALTERA SDK for OpenCL is faster than your GPU with OpenCL \n");
+	printf("\e\t\t\t\t[1;31mCaution! The FPGA will be faster if you use vhdl code instead of the ALTERA SDK for OpenCL and take care of the design yourself.\n\e[0m");
+}
