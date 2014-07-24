@@ -1,3 +1,6 @@
+Simply run the makefile in the the folder where you store the program.
+
+
 This algorithm is very simple it does not take care of:
 
 
