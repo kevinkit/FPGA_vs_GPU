@@ -13,7 +13,7 @@ Better for FPGA:
 
 -unrolling of loops inside a work-item
 
-
+-The FPGA is programmed resource saving. If you would have an infinite amount of resources you would have less clockzycles but only has many as you have operations in your Kernel.
 
 Better for GPU:
 
